@@ -57,7 +57,7 @@ const Jonas = new Pirate('Jonas', 4, false);
 const Lockheed = new Pirate('Lockheed', 6, true);
 const blackPearl = [Dave, Jonas, Lockheed];
 
-console.log('-- Jolly Roger: --');
+console.log('-- Jolly Roger: -- ');
 jollyRoger.forEach(pirate => {
     console.log(pirate.name);
     console.log(pirate.crackers);
